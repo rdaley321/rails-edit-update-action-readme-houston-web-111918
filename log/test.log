@@ -541,6 +541,7 @@ Processing by ArticlesController#show as HTML
   Parameters: {"id"=>"1"}
   [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered articles/show.html.erb within layouts/application (1.2ms)
+<<<<<<< HEAD
 Completed 200 OK in 198ms (Views: 184.2ms | ActiveRecord: 0.2ms)
   [1m[35m (0.3ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
@@ -619,3 +620,5 @@ Processing by ArticlesController#show as HTML
   Rendered articles/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 1695438e14a0bb9628cec77028de5344724c9769
